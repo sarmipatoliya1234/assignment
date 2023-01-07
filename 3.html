@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" rules="all">
+        <tr>
+            <th>header column 1</th>
+            <th>header column 2</th>
+            <th>header column 3</th>
+            <th>header column 4</th>
+        </tr>
+        <tr>
+            <td>row2-item1</td>
+            <td>row2-item2</td>
+            <td rowspan="2">row2-nested table1
+                <table border="1" rules="all">
+                    <tr>
+                        <th>row1</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1</th>
+                        <td>item</td>
+                    </tr>
+
+                </table>
+            </td>
+            <td>row2-item4 <br>a second line</td>
+        </tr>
+        <tr>
+            <td >row3-nested table2
+                <table border="1" rules="all">
+                    <tr>
+                        <th>row1</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>row1</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td >row3-item2</td>
+            <td rowspan="2">row3-item3</td>
+          
+        </tr>
+        <tr>
+           
+            <td>row4-item1</td>
+            <td>row4-item2</td>
+            <td>row4-item3</td>
+            
+        </tr>
+        <tr >
+           
+            <td colspan="4">row5-last row of outer table</td>
+          
+            
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
